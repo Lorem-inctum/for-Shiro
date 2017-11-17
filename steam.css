@@ -1,0 +1,152 @@
+body {
+    background: #1b2838;
+    color: #8F98A0;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    background: #171a21;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+}
+
+.content {
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+    padding-top: 30px;
+    box-sizing: border-box
+}
+
+.main {
+    max-width: 958px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.login_panel {
+    margin-top: 17px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background: linear-gradient( to bottom, rgba( 64, 128, 183, 0.4) 5%, rgba( 64, 128, 183, 0.2) 95%);
+    box-shadow: 0px 0px 3px 0px rgba(20,20,20,0.75);
+    display: flex
+}
+
+.left_panel {
+    width: 400px;
+    min-width: 350px;
+    max-width: 400px;
+    padding: 17px 20px;
+}
+
+.divider {
+    width: 2px;
+    height: 150px;
+    margin: 10px;
+    background-image: url(signin_divider.jpg)
+}
+
+.right_panel {
+        width: 314px;
+        padding: 17px 20px;
+}
+
+.join {
+ border-radius: 2px;
+    display: block;
+    background: linear-gradient( to bottom, rgba(33,101,138,1) 5%, rgba(23,67,92,1) 95%);
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #A4D7F5 !important;
+}
+.join:hover {
+    background: cyan;
+    transition: 0.2s;
+}
+.left_panel h1 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Motiva Sans", Sans-serif;
+    margin: 0;
+}
+
+.left_panel p {
+    margin: 0;
+}
+
+.sign_in {
+    width: 250px;
+    margin-top: 15px;
+}
+
+.sign_in p {
+    font-size: 13px;
+    color: #2f89bc;
+}
+
+input {
+    margin: 0px;
+    color: #BFBFBF;
+    padding: 4px 6px;
+    background-color: rgba( 0, 0, 0, 0.4 );
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-bottom: 15px
+}
+
+.green_butt {
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.left_panel a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.fyp p {
+    margin-top: 13px
+}
+
+.footer {
+    display: flex
+}
+
+.whyjoinleft {
+    width: 315px;
+    padding-top: 65px;
+    padding-left: 20px;
+    text-align: left;
+    color: #8F98A0;
+    font-size: 14px;
+}
+
+.whyjoinleft h1 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.whyjoinleft ul {
+    font-size: 14px;
+    color: #b0aeac;
+}
