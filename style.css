@@ -1,0 +1,84 @@
+body {
+    background-image: url('games-bg.jpg');
+    margin: 0;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 992px;
+    height: 132px;
+    background-image: url('nav-bg%20.png');
+    padding-top: 43px;
+    padding-left: 217px;
+    box-sizing: border-box
+}
+
+.bar {
+    width: 762px;
+    height: 83px;
+    background-image: url('nav-bar.gif');
+    padding-top: 60px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.menu {
+    width: 152px;
+    height: 83px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.games {
+    font-size: 34px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.block {
+    background-image: url('box-top.jpg');
+    height: 44px;
+    background-size: 100%;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.block p {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: "MuseoSans-500", arial, sans-serif;
+}
+
+.parent {
+    background-image: url('box-body-top.gif');
+    background-size: 100%;
+    background-color: #001821;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 8px
+}
+
+.box {
+    width: 326px;
+    height: 290px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box p {
+    font-size: 11px;
+    padding: 11px 15px 15px 15px;
+    color: #5d91a3;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
